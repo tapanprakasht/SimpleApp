@@ -29,7 +29,7 @@ class SimpleAppUITests: XCTestCase {
     func testExample() {
         let app = XCUIApplication()
         app.buttons["Click Me"].tap()
-        XCTAssertEqual(app.staticTexts.element(matching: .any, identifier: "myLabel").label, "Hello")
+        XCTAssertEqual(app.staticTexts.element(matching: .any, identifier: "myLabel").label, "HelloWorld")
     }
 
 }
