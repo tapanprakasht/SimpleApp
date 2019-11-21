@@ -5,7 +5,7 @@ branches:
     - CI
     - master
 before_install:
-  - gem install fastlane --no-rdoc --no-ri
+  - gem update fastlane
 install: true
 script:
   - fastlane scan -s SimpleAppUITests
